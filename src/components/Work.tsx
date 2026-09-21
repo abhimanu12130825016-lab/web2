@@ -2,11 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Eyebrow } from "./ui";
-import imgMenu from "../assets/work-menu.jpg";
-import imgPosters from "../assets/work-posters.jpg";
-import imgWebsite from "../assets/work-website.jpg";
-import imgStationery from "../assets/work-stationery.jpg";
-import imgMarket from "../assets/work-market.jpg";
+
+const imgMenu = "/images/work-menu.jpg";
+const imgPosters = "/images/work-posters.jpg";
+const imgWebsite = "/images/work-website.jpg";
+const imgStationery = "/images/work-stationery.jpg";
+const imgMarket = "/images/work-market.jpg";
 
 const PROJECTS = [
   { img: imgMenu, title: "Nova Café", tag: "Menus & Flyers", year: "2025" },
